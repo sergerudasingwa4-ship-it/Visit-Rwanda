@@ -1,0 +1,285 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #14141a;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.8;
+
+    /* background-color: transparent;  */
+}
+
+.home {
+    margin-right: -210px;
+    color: white;
+}
+
+.links_1 a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.links_2 a {
+    margin: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.links_3 a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.travel {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+/* TOURISME SECTION */
+.tourism_section_center {
+    /* Centers all the text inside the container */
+    text-align: center;
+    /* Centers the entire container horizontally on the screen */
+    margin: 0 auto;
+    /* Restricts how wide the paragraphs can get, matching the look in the image */
+    max-width: 650px;
+    /* Optional: Adds spacing around the entire section */
+    padding: 40px 20px;
+
+}
+
+h2 {
+    font-weight: lighter;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+p {
+    color: #333333;
+    line-height: 1.6;
+    /* Adds clean vertical spacing between lines */
+    margin-bottom: 24px;
+    /* Adds spacing between the two paragraphs */
+    font-size: 20px;
+}
+
+.img_slider_container_1 {
+    display: flex;
+    align-items: center;
+}
+
+.great_rift_valley_center {
+    /* Centers all the text inside the container */
+    text-align: center;
+    /* Centers the entire container horizontally on the screen */
+    margin: 0 auto;
+    /* Restricts how wide the paragraphs can get, matching the look in the image */
+    max-width: 650px;
+    /* Optional: Adds spacing around the entire section */
+    padding: 40px 20px;
+
+}
+
+.view_activities {
+    background-color: rgb(46, 39, 63);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-top: 90px;
+}
+
+/* SERVICES SECTION */
+.services_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0; 
+
+}
+.services_container {
+    display: grid;
+    /* Forces exactly 4 equal columns with zero spacing */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 0;                               /* Zero grid gaps */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+/* Individual container blocks */
+.overimg_1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;                     /* Prevents clipping artifacts */
+}
+/* Strip text blocks from pushing the layout dimensions */
+.text_overlay h2, 
+.text_overlay h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Force the pictures to become dynamic blocks */
+.overimg_1 img {
+    display: block;      /* Deletes default 4px typography baseline gaps below images */
+    width: 100%;         /* Expands fully to touch edges horizontally */
+    height: 100%;        /* Fills the element block vertically */
+    object-fit: cover;   /* Crops cleanly inside columns without squishing proportions */
+}
+.overimg_1 img:hover{
+    filter: brightness(80%)
+
+}
+.overimg_1 img{
+    transition: 0.1 ease;
+    /* this should give solution to images that exceed the body width */
+    /* width: 390px; */
+}
+
+/* 
+.test:hover {
+    color: rgba(7, 7, 12, 0.253);
+
+} */
+
+/* INVERSTMENT SECTION */
+.Investment_container {
+    /* Centers all the text inside the container */
+    text-align: center;
+    /* Centers the entire container horizontally on the screen */
+    margin: 0 auto;
+    /* Restricts how wide the paragraphs can get, matching the look in the image */
+    max-width: 650px;
+    /* Optional: Adds spacing around the entire section */
+    padding: 40px 20px;
+
+}
+
+.img_slider_container_2 {
+    display: flex;
+    align-items: center;
+
+}
+
+/* DIVERSITIES SECTION */
+.diversities_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+     gap: 0;                               /* Zero grid gaps */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+
+
+.meet_in_rwanda_container {
+    /* Centers all the text inside the container */
+    text-align: center;
+    /* Centers the entire container horizontally on the screen */
+    margin: 0 auto;
+    /* Restricts how wide the paragraphs can get, matching the look in the image */
+    max-width: 650px;
+    /* Optional: Adds spacing around the entire section */
+    padding: 40px 20px;
+
+}
+
+.meet_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sport_partnership_container {
+    /* Centers all the text inside the container */
+    text-align: center;
+    /* Centers the entire container horizontally on the screen */
+    margin: 0 auto;
+    /* Restricts how wide the paragraphs can get, matching the look in the image */
+    max-width: 650px;
+    /* Optional: Adds spacing around the entire section */
+    padding: 40px 20px;
+
+}
+
+.partnership_images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -60px;
+}
+
+.partners_1 {
+    width: 70px;
+}
+
+.partners_2 {
+    width: 100px;
+}
+
+.partners_3 {
+    width: 125px;
+}
+
+.partners_4 {
+    width: 100px;
+}
+
+.partners_5 {
+    width: 150px;
+}
+
+.partners_6 {
+    width: 120px;
+}
+
+.partners_7 {
+    width: 95px;
+}
+
+/* FOOTER */
+.part_one_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #162239;
+}
+
+.footer_color {
+    color: white;
+}
+
+.part_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0F1A2F;
+    padding: 40px;
+}
+
+.copy_right {
+    color: white;
+}
+
+.links a {
+    /* display: flex; */
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    margin: 35px;
+    font-size: 20px;
+
+}
